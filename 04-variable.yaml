@@ -1,6 +1,6 @@
 - name: varaibles to print
   hosts: web
   tasks:
-   - name: print the information
-     ansible.system.debug:
-     msg: 'Hi, I am learning Devops with AWS, Duration is 120hrs, Trainer: Sivakumar Reddy'
+  - name: print the information
+    ansible.system.debug:
+    msg: 'Hi, I am learning Devops with AWS, Duration is 120hrs, Trainer: Sivakumar Reddy'
