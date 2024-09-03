@@ -12,7 +12,7 @@
    tools:
      ci: Jenkins
      cm: ansible
-    cloud: aws
+     cloud: aws
   tasks:
   - name: "Print the information"
     ansible.builtin.debug:
